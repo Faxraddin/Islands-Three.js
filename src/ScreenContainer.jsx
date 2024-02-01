@@ -2,6 +2,8 @@ import React, { Suspense } from "react";
 import { Environment,OrbitControls,PerspectiveCamera } from '@react-three/drei';
 
 import FloatingIsland from "./FloatingIsland";
+import { Portal } from "./Portal";
+import { Rocks } from "./Rocks";
 
 const ScreenContainer = () => {
   return (
@@ -13,6 +15,8 @@ const ScreenContainer = () => {
         <OrbitControls target={[1,5,0]} maxPolarAngle={Math.PI * 0.5}/>
 
         <FloatingIsland/>
+        <Portal/>
+        <Rocks/>
     </Suspense>
   )
 }
