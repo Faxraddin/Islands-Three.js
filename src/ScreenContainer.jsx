@@ -4,6 +4,7 @@ import { Environment,OrbitControls,PerspectiveCamera } from '@react-three/drei';
 import FloatingIsland from "./FloatingIsland";
 import { Portal } from "./Portal";
 import { Rocks } from "./Rocks";
+import { FloatingRocks } from "./FloatingRocks";
 
 const ScreenContainer = () => {
   return (
@@ -17,6 +18,7 @@ const ScreenContainer = () => {
         <FloatingIsland/>
         <Portal/>
         <Rocks/>
+        <FloatingRocks/>
     </Suspense>
   )
 }
