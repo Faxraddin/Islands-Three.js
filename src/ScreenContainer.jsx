@@ -5,6 +5,7 @@ import FloatingIsland from "./FloatingIsland";
 import { Portal } from "./Portal";
 import { Rocks } from "./Rocks";
 import { FloatingRocks } from "./FloatingRocks";
+import { Trees } from "./Trees";
 
 const ScreenContainer = () => {
   return (
@@ -19,6 +20,7 @@ const ScreenContainer = () => {
         <Portal/>
         <Rocks/>
         <FloatingRocks/>
+        <Trees/>
     </Suspense>
   )
 }

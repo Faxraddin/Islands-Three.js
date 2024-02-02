@@ -11,7 +11,7 @@ export function FloatingRocks() {
   return (
     <>
       <Float
-        speed={1.5} 
+        speed={4.5} 
         rotationIntensity={1.6} 
         floatIntensity={0}
         position={[-20.5, -7, -19]}
@@ -21,7 +21,7 @@ export function FloatingRocks() {
 
 
       <Float
-        speed={1.5} 
+        speed={4.5} 
         rotationIntensity={1.6} 
         floatIntensity={0}
         position={[-5, 10, -33]}
@@ -31,7 +31,7 @@ export function FloatingRocks() {
   
   
       <Float
-        speed={1.5} 
+        speed={4.5} 
         rotationIntensity={1.1} 
         floatIntensity={0}
         position={[20, 3.5, -9]}
