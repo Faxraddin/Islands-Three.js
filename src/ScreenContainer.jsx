@@ -6,6 +6,7 @@ import { Portal } from "./Portal";
 import { Rocks } from "./Rocks";
 import { FloatingRocks } from "./FloatingRocks";
 import { Trees } from "./Trees";
+import { Words } from "./Words";
 
 const ScreenContainer = () => {
   return (
@@ -21,6 +22,7 @@ const ScreenContainer = () => {
         <Rocks/>
         <FloatingRocks/>
         <Trees/>
+        <Words/>
     </Suspense>
   )
 }
