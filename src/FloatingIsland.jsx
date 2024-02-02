@@ -2,6 +2,7 @@ import { useLoader } from "@react-three/fiber";
 import { useEffect } from "react";
 import { BufferAttribute,Color } from "three";
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import React from "react";
 
 const FloatingIsland = () => {
     const gltf = useLoader(GLTFLoader, "/models/floating_island.glb");
